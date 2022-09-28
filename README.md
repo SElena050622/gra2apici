@@ -6,3 +6,4 @@
 
 ```Задача №2: JSON Schema```
 
+[![Build status](https://ci.appveyor.com/api/projects/status/8u9d7b5lh5x80en0?svg=true)](https://ci.appveyor.com/project/SElena050622/gra2apici)
