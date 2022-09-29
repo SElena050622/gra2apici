@@ -30,6 +30,13 @@
       "currency": {
         "type": "string"
       }
+      "cyrrency": {
+        "required": [
+          "RUB",
+          "USD"
+        ],
+        "additionalProperties": false
+      }
     }
   }
 }

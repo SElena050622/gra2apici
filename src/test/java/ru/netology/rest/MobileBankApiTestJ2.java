@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class MobileBankApiTestJ1 {
+public class MobileBankApiTestJ2 {
 
     @Test
-    void shouldReturnDemoId() {
+    void shouldReturnDemoCurrency2() {
         // Given - When - Then
         // Предусловия
         given()
@@ -23,7 +23,7 @@ public class MobileBankApiTestJ1 {
                 // специализированные проверки - лучше
                 .contentType(ContentType.JSON)
                 .body("", hasSize(3))
-                .body("[1].id", equalTo("2"))
+                .body("[0].currency", equalTo("RUR"))
         ;
     }
 }
