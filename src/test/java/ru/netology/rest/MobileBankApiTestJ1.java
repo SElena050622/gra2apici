@@ -7,7 +7,6 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
 public class MobileBankApiTestJ1 {
-
     @Test
     void shouldReturnDemoId() {
         // Given - When - Then
@@ -27,3 +26,4 @@ public class MobileBankApiTestJ1 {
         ;
     }
 }
+

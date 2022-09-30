@@ -31,7 +31,7 @@
         "type": "string"
       }
       "cyrrency": {
-        "required": [
+        "enum": [
           "RUB",
           "USD"
         ],
