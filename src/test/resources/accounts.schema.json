@@ -13,7 +13,8 @@
       "additionalProperties": false,
       "properties": {
         "id": {
-          "type": "integer"
+          "type": "integer",
+          "default": 0
         },
         "name": {
         "type": "string",
@@ -29,7 +30,7 @@
       },
       "currency": {
         "type": "string"
-      }
+      },
       "cyrrency": {
         "enum": [
           "RUB",
